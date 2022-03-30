@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Can-Nang</title>
+</head>
+<body>
+<script>
+    let weight = +prompt("nhap vao can nang - KG")
+    let height = +prompt("nhap vao chieu cao - CM")
+    let BMI = weight/(height*height)*10000
+    // alert(BMI)
+    if (BMI < 18.5) {
+        alert("Underweight")
+    } else if (BMI < 25) {
+        alert("Normal")
+    } else if (BMI < 30) {
+        alert("Overweight")
+    } else alert("Obese")
+</script>
+</body>
+</html>
